@@ -34,9 +34,11 @@ my_buffer <- 40 * 1000 # The size of the buffers around the points
 map_output_width <- 4
 asp_ratio <- 1 
 
+
+### ADD INFO HERE
 # To map a variable you need three things.
 # 1. A shape file of the region you're interested in
-# 2. A
+# 2. A 
 
 # Created a little function that converts a dataframe of lat and longs to a UTM
 to_UTM <- function(x, crs = "+proj=utm +zone=55 +south +ellps=GRS80 +units=m") {
