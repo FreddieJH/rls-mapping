@@ -17,7 +17,7 @@ my_data <- my_data %>% mutate(Exploit20 = ifelse(is.na(Exploit20) | Exploit20 ==
                               ExploitTot = as.numeric(ExploitTot)) # Warning message is fine 
 
 # 2. Make sure your data is in the right format, e.g. each row is the scale you want the points to be at
-#Change
+
 my_data <-
   my_data %>%
   group_by(SiteCode) %>%
